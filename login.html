@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro UTNG</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--<link href="css/style.css" rel="stylesheet">-->
+
+  </head>
+  <body class="bg-ligth" background="img/bg2.jpeg">
+    <div class="container">
+  <div class="py-2 text-center">
+    <img class="d-block mx-auto mb-4" src="img/iconox.jpg" alt="" width="100" height="100">
+    <h2>Registro UTNG</h2>
+  </div>
+  <div class="offset-md-2">
+    <div class="col-lg-9 order-md-0">
+      <h4 class="mb-3">Datos personales</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Nombre(s)</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Apellido(s)</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+
+        <div class="col-md-4 mb-3">
+            <label for="state">Visitante<span class="text-muted">(Obligatorio)</span></label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Seleccionar...</option>
+              <option>Padre o Tutor</option>
+              <option>Docente</option>
+              <option>Alumno</option>
+              <option>Público en general</option>
+            </select>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+          </div>
+        <div class="mb-3">
+          <label for="username">Usuario</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="Usuario" required>
+            <div class="invalid-feedback" style="width: 100%;">
+              Your username is required.
+            </div>
+          </div>
+        </div>
+
+         <div class= "form-group" > <label for= "exampleInputPassword1" > Contraseña </label> 
+          <input type= "password" class= "form-control" id= "pass" placeholder= "Password" > 
+        </div>
+        <div class="mb-3">
+          <label for="email">Correo Eletrónico<span class="text-muted">(Obligatorio)</span></label>
+          <input type="email" class="form-control" id="email" placeholder="usted@ejemplo.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address">Dirección</label>
+          <input type="text" class="form-control" id="address" placeholder="Dirección #456" required>
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address2">Télefono<span class="text-muted">(Opcional)</span></label>
+          <input type="text" class="form-control" id="address2" placeholder="8556983547">
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">Ciudad</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">Seleccionar...</option>
+              <option>Dolores Hidalgo</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <label for="state">Comunidad</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Seleccionar...</option>
+              <option>Rastrojo</option>
+            </select>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Código Postal</label>
+            <input type="text" class="form-control" id="zip" placeholder="" required>
+            <div class="invalid-feedback">
+              Zip code required.
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+  <footer class="my-5 pt-5 text-white text-center text-small">
+    <p class="mb-1">&copy; UTNG Campus Dolores Hidalgo C.I.N</p>
+  </footer>
+</div>
+</body>
+</html>
